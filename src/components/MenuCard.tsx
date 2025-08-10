@@ -22,7 +22,7 @@ const MenuCard: React.FC<MenuCardProps> = ({ title, price, category, index }) =>
   const categoryColors = {
     food: 'border-primary hover:shadow-glow-primary',
     drinks: 'border-secondary hover:shadow-glow-secondary',
-    specials: 'border-accent hover:border-accent-glow',
+    specials: 'border-accent hover:shadow-glow-primary',
     secret: 'border-purple hover:shadow-glow-secondary'
   };
 
