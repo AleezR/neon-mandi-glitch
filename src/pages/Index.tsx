@@ -12,7 +12,7 @@ const foodItems = [
   { title: 'Packet Loss Pizza', price: '¢7.77', image: '/lovable-uploads/86f241d7-5e08-4563-9034-3c1037c41e2d.png' },
   { title: 'Schrödinger\'s Soup', price: '¢5.08', image: '/lovable-uploads/30f4c509-da75-4753-89da-ebf7b9dee72d.png' },
   { title: 'Memory Noodles', price: '¢6.66', image: '/lovable-uploads/3d2ac52c-363f-494e-b78f-549943016214.png' },
-  { title: 'Byte-Sized Dumplings', price: '¢8.08', image: '/lovable-uploads/30f4c509-da75-4753-89da-ebf7b9dee72d.png' }
+  { title: 'Byte-Sized Dumplings', price: '¢8.08', image: '/lovable-uploads/a0892aef-e6e8-409b-b96e-84cc544ac632.png' }
 ];
 
 const drinkItems = [
@@ -24,9 +24,9 @@ const drinkItems = [
 ];
 
 const specialItems = [
-  { title: '404 Platter', price: '¢9.99', image: '/lovable-uploads/30f4c509-da75-4753-89da-ebf7b9dee72d.png' },
-  { title: 'Pixel Pancakes', price: '¢5.55', image: '/lovable-uploads/0f084e62-8082-493a-b826-9637af321113.png' },
-  { title: 'Overclocked Brownie', price: '¢6.78', image: '/lovable-uploads/0f084e62-8082-493a-b826-9637af321113.png' },
+  { title: '404 Platter', price: '¢9.99', image: '/lovable-uploads/962dd184-8aa0-407c-a253-a90fb8bcc392.png' },
+  { title: 'Pixel Pancakes', price: '¢5.55', image: '/lovable-uploads/1fbeb56d-49ef-46cf-bc3c-01e65b919f8c.png' },
+  { title: 'Overclocked Brownie', price: '¢6.78', image: '/lovable-uploads/ef34d882-82bb-484f-a86f-d369db88eeb6.png' },
   { title: 'Phantom Fries', price: '¢4.21', image: '/lovable-uploads/30f4c509-da75-4753-89da-ebf7b9dee72d.png' },
   { title: 'Cyber Sushi Roll', price: '¢8.64', image: '/lovable-uploads/86f241d7-5e08-4563-9034-3c1037c41e2d.png' }
 ];
