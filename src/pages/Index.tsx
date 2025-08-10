@@ -8,27 +8,27 @@ import heroImage from '@/assets/cyberpunk-hero-bg.jpg';
 
 // Menu data
 const foodItems = [
-  { title: 'Quantum Croissant', price: '¢4.04' },
-  { title: 'Packet Loss Pizza', price: '¢7.77' },
-  { title: 'Schrödinger\'s Soup', price: '¢5.08' },
-  { title: 'Memory Noodles', price: '¢6.66' },
-  { title: 'Byte-Sized Dumplings', price: '¢8.08' }
+  { title: 'Quantum Croissant', price: '¢4.04', image: '/lovable-uploads/0f084e62-8082-493a-b826-9637af321113.png' },
+  { title: 'Packet Loss Pizza', price: '¢7.77', image: '/lovable-uploads/86f241d7-5e08-4563-9034-3c1037c41e2d.png' },
+  { title: 'Schrödinger\'s Soup', price: '¢5.08', image: '/lovable-uploads/30f4c509-da75-4753-89da-ebf7b9dee72d.png' },
+  { title: 'Memory Noodles', price: '¢6.66', image: '/lovable-uploads/3d2ac52c-363f-494e-b78f-549943016214.png' },
+  { title: 'Byte-Sized Dumplings', price: '¢8.08', image: '/lovable-uploads/30f4c509-da75-4753-89da-ebf7b9dee72d.png' }
 ];
 
 const drinkItems = [
-  { title: 'Lagged Espresso', price: '¢3.03' },
-  { title: 'Neon Bubble Tea', price: '¢4.44' },
-  { title: 'Blue Screen Shake', price: '¢5.12' },
-  { title: 'Glitch-Cola', price: '¢2.99' },
-  { title: 'RAM Mojito', price: '¢4.96' }
+  { title: 'Lagged Espresso', price: '¢3.03', image: '/lovable-uploads/88c63fc4-a957-468e-acdc-7e01040de0d4.png' },
+  { title: 'Neon Bubble Tea', price: '¢4.44', image: '/lovable-uploads/3ed41e25-909f-42f6-a60a-c77048352cda.png' },
+  { title: 'Blue Screen Shake', price: '¢5.12', image: '/lovable-uploads/3a86adf3-a79c-47f6-a394-f92afbda9892.png' },
+  { title: 'Glitch-Cola', price: '¢2.99', image: '/lovable-uploads/8cfdc95a-1b8d-4d6b-9036-ba3e6ccd2443.png' },
+  { title: 'RAM Mojito', price: '¢4.96', image: '/lovable-uploads/3a86adf3-a79c-47f6-a394-f92afbda9892.png' }
 ];
 
 const specialItems = [
-  { title: '404 Platter', price: '¢9.99' },
-  { title: 'Pixel Pancakes', price: '¢5.55' },
-  { title: 'Overclocked Brownie', price: '¢6.78' },
-  { title: 'Phantom Fries', price: '¢4.21' },
-  { title: 'Cyber Sushi Roll', price: '¢8.64' }
+  { title: '404 Platter', price: '¢9.99', image: '/lovable-uploads/30f4c509-da75-4753-89da-ebf7b9dee72d.png' },
+  { title: 'Pixel Pancakes', price: '¢5.55', image: '/lovable-uploads/0f084e62-8082-493a-b826-9637af321113.png' },
+  { title: 'Overclocked Brownie', price: '¢6.78', image: '/lovable-uploads/0f084e62-8082-493a-b826-9637af321113.png' },
+  { title: 'Phantom Fries', price: '¢4.21', image: '/lovable-uploads/30f4c509-da75-4753-89da-ebf7b9dee72d.png' },
+  { title: 'Cyber Sushi Roll', price: '¢8.64', image: '/lovable-uploads/86f241d7-5e08-4563-9034-3c1037c41e2d.png' }
 ];
 
 const Index = () => {
@@ -117,6 +117,7 @@ const Index = () => {
                   key={item.title}
                   title={item.title}
                   price={item.price}
+                  image={item.image}
                   category="food"
                   index={index}
                 />
@@ -135,6 +136,7 @@ const Index = () => {
                   key={item.title}
                   title={item.title}
                   price={item.price}
+                  image={item.image}
                   category="drinks"
                   index={index}
                 />
@@ -153,6 +155,7 @@ const Index = () => {
                   key={item.title}
                   title={item.title}
                   price={item.price}
+                  image={item.image}
                   category="specials"
                   index={index}
                 />

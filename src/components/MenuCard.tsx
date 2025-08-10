@@ -4,11 +4,12 @@ import { cn } from '@/lib/utils';
 interface MenuCardProps {
   title: string;
   price: string;
+  image?: string;
   category: 'food' | 'drinks' | 'specials' | 'secret';
   index: number;
 }
 
-const MenuCard: React.FC<MenuCardProps> = ({ title, price, category, index }) => {
+const MenuCard: React.FC<MenuCardProps> = ({ title, price, image, category, index }) => {
   const [isVisible, setIsVisible] = useState(false);
 
   React.useEffect(() => {
@@ -53,6 +54,21 @@ const MenuCard: React.FC<MenuCardProps> = ({ title, price, category, index }) =>
           "scanline absolute inset-0 opacity-0 group-hover:opacity-100",
           isVisible && "animate-pulse"
         )} />
+        
+        {/* Image display */}
+        {image && (
+          <div className="mb-4 relative overflow-hidden rounded-md">
+            <img 
+              src={image} 
+              alt={title}
+              className="w-full h-32 object-cover transition-transform duration-300 group-hover:scale-110"
+              style={{ 
+                filter: 'brightness(0.8) contrast(1.2) saturate(1.3) hue-rotate(5deg)' 
+              }}
+            />
+            <div className="absolute inset-0 bg-gradient-to-t from-card/50 to-transparent" />
+          </div>
+        )}
         
         {/* Content */}
         <div className="relative z-10">
